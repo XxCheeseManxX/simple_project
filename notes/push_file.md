@@ -15,6 +15,7 @@ To open the file for editing in VS Code:
 1. `git add test.txt`
 2. `git commit -m "My first commit!`
 3. `git push`
+    - But wait! Push won't work. Set up SSH keys and remote repo (see below) before pushing
 
 # Creating SSH keys
 
