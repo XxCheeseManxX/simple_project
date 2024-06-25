@@ -1,4 +1,9 @@
-from setuptools import setup, find_packages
+"""Setup for the project.
+
+For learning purposes
+"""
+
+from setuptools import find_packages, setup
 
 setup(
     name="foo",

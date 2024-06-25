@@ -1,9 +1,12 @@
-import numpy as np 
+"""Testing with Numpy.
 
-def numpy_mean(array):
+For learning purposes
+"""
+
+import numpy as np
+
+
+def numpy_mean(array: list) -> list:
+    """Return the mean of the array parameter."""
     array = np.array(array)
-    mean_val = np.mean(array)
-    return mean_val
-
-
-
+    return np.mean(array)
